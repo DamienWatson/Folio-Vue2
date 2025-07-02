@@ -1,0 +1,30 @@
+/*
+  #  #   ##   ###   ####   ##   ###   #    ####  ###
+  #  #  #  #  #  #    #   #  #  #  #  #    #    #
+  #  #  ####  ###     #   ####  ###   #    ###   ##
+   # #  #  #  #  #    #   #  #  #  #  #    #       #
+    ##  #  #  #  #  ####  #  #  ####  #### #### ###
+*/
+:root {
+  --min-ipad-width: 769px;
+  --min-desktop-width: 1025px;
+  --max-screen-width: 1240px;
+
+  --br-xxs: 4px;
+  --br-xs: 8px;
+  --br-s: 16px;
+  --br-m: 24px;
+  --br-l: 32px;
+  --br-round: 50%;
+
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-s: 16px;
+  --spacing-m: 24px;
+  --spacing-l: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 64px;
+
+  --heading-text: "Saira Semi Condensed", sans-serif;
+  --body-text: "Saira", sans-serif;
+}

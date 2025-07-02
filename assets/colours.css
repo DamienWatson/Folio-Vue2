@@ -1,0 +1,93 @@
+/*
+   ###   ##   #      ##   #  #  ###    ###
+  #     #  #  #     #  #  #  #  #  #  #
+  #     #  #  #     #  #  #  #  ###    ##
+  #     #  #  #     #  #  #  #  #  #     #
+   ###   ##   ####   ##    ##   #  #  ###
+*/
+:root {
+  --colour-stone-50:            #fafaf9;
+  --colour-stone-100:           #f5f5f4;
+  --colour-stone-200:           #e7e5e4;
+  --colour-stone-300:           #d6d3d1;
+  --colour-stone-400:           #a8a29e;
+  --colour-stone-500:           #78716c;
+  --colour-stone-600:           #57534e;
+  --colour-stone-700:           #44403c;
+  --colour-stone-700-80:        #292524cc;
+  --colour-stone-800:           #292524;
+  --colour-stone-800-40:        #29252466;
+  --colour-stone-900:           #1c1917;
+  --colour-stone-950:           #0c0a09;
+  --colour-stone-950-20:        #0c0a0933;
+  --colour-amber-50:            #fffbeb;
+  --colour-amber-100:           #fef3c7;
+  --colour-amber-200:           #fde68a;
+  --colour-amber-300:           #fcd34d;
+  --colour-amber-400:           #fbbf24;
+  --colour-amber-500:           #f59e0b;
+  --colour-amber-600:           #d97706;
+  --colour-amber-700:           #b45309;
+  --colour-amber-800:           #92400e;
+  --colour-amber-900:           #78350f;
+  --colour-amber-950:           #451a03;
+  --colour-fire-50:             #fef2f2;
+  --colour-fire-100:            #fee2e2;
+  --colour-fire-200:            #fecaca;
+  --colour-fire-300:            #fca5a5;
+  --colour-fire-400:            #f87171;
+  --colour-fire-500:            #ef4444;
+  --colour-fire-600:            #dc2626;
+  --colour-fire-700:            #b91c1c;
+  --colour-fire-800:            #991b1b;
+  --colour-fire-900:            #7f1d1d;
+  --colour-fire-950:            #450a0a;
+  --colour-sky-50-20:           #f0f9ff33;
+  --colour-sky-50:              #f0f9ff;
+  --colour-sky-50-70:           #f0f9ffc0;
+  --colour-sky-100:             #e0f2fe;
+  --colour-sky-200:             #bae6fd;
+  --colour-sky-300:             #7dd3fc;
+  --colour-sky-400:             #38bdf8;
+  --colour-sky-500:             #0ea5e9;
+  --colour-sky-600:             #0284c7;
+  --colour-sky-700:             #0369a1;
+  --colour-sky-800:             #075985;
+  --colour-sky-800-50:          #0759857f;
+  --colour-sky-900:             #0c4a6e;
+  --colour-sky-900-50:          #0c4a6e7f;
+  --colour-sky-950:             #082f49;
+  --colour-sky-975:             #041925;
+  
+  --page-text-colour:           #082f49; /* --colour-sky-950 */
+  --page-bg-colour:             #f0f9ff; /* --colour-sky-50 */
+ 
+  --page-h1-colour:             #f0f9ff; /* --colour-sky-50 */
+  --page-h1-bg-colour:          #0369a1; /* --colour-sky-700 */
+   
+  --page-h2-colour:             #082f49; /* --colour-stone-950 */
+  --page-h2-bg-colour:          #d6d3d1; /* --colour-stone-300 */
+  --page-h2-link-colour:        #0369a1; /* --colour-sky-800 */
+  
+  --page-content-bg-colour:     #f0f9ff; /* --colour-sky-50 */
+  --page-content-border-colour: #d6d3d1; /* --colour-stone-300 */
+  --page-content-link-colour:   #7dd3fc; /* --colour-sky-300 */
+ 
+  --body-text-colour:           #f0f9ff; /* --colour-sky-50 */
+
+  --form-ring-colour:           #0284c7; /* --colour-sky-600 */
+ 
+  --colour-content-bg:          #fafaf9;
+  --colour-primary:             #316293;
+  --colour-primary-hover:       #4172a3;
+  --colour-primary-text:        #fafaf9;
+  --colour-secondary:           #292524;
+  --colour-secondary-text:      #fafaf9;
+  --nav-color-border:           #57534e;
+  --nav-link-color:             #38bdf8;
+  --link-color:                 #37b;
+  --colour-link:                #37b;
+  --colour-form-focus:          #0284c7;
+  --colour-shadow:              #1c191733;
+  --colour-form-input-border:   #57534e;
+}
