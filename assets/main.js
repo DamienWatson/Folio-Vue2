@@ -49,17 +49,14 @@ const ProjectsView = {
       this.loading = true;
       axios.get(`https://api.github.com/users/${this.username}/repos?per_page=${this.perPage}&page=${this.page}`)
         .then((response) => {
-          console.log(response.data);
           this.projects = response.data;
           this.projects.forEach(project => {
-            console.log(project);
             if (project.language !== null && !this.skills.includes(project.language)) {
               this.skills.push(project.language);
             }
           });
         })
         .catch(error => {
-          console.log(error);
           this.error = true;
         })
         .finally(() => {
