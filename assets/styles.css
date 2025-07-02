@@ -19,6 +19,7 @@
   --home-links-size: 1.25rem;
   --header-direction: column;
   --grid-layout: 1fr;
+  --project-gap-row: var(--spacing-s);
   --card-rotate: 0;
   --card-round: 0;
   --card-top: 0;
@@ -36,10 +37,11 @@
     --home-links-size: 2rem;
     --header-direction: row-reverse;
     --grid-layout: 1fr 1fr;
+    --project-gap-row: var(--spacing-2xl);
     --card-rotate: -15deg;
     --card-round: var(--br-round);
-    --card-top: -25%;
-    --card-height: 150%;
+    --card-top: -20%;
+    --card-height: 140%;
     --card-padding: 0;
     --card-overflow: unset;
   }
@@ -202,7 +204,7 @@ main {
   display: grid;
   grid-template-columns: var(--grid-layout);
   gap: var(--spacing-s);
-  
+  row-gap: var(--project-gap-row);
 }
 
 .card {
